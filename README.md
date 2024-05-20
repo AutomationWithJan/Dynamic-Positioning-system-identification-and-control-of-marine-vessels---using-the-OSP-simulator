@@ -11,3 +11,5 @@ Steps to run:
 2. update the link to thruster dynamics and vessel model.
 3. Then you must implement qpOASES and compile it for the problem.  Steps can be found here: https://web01.usn.no/~roshans/mpc/
 4. place the project in the same folder as qpOASES. ex: C:\temp\qpOASES\qp_OASES\interfaces\simulink
+
+More info can be found here: https://youtu.be/qUpC_xEQWXc 
