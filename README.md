@@ -7,3 +7,7 @@ THe third Simulink file is an state estimator based on the famous Kalman filter
 The fourth Simulink file is an MPC controller for the Gunnerus DP. 
 
 Steps to run: 
+1. First you habe to obtain the Gunnerus-DP package from the OSP webpage. https://open-simulation-platform.github.io/cosim-demo-app/Gunnerus-DP
+2. update the link to thruster dynamics and vessel model.
+3. Then you must implement qpOASES and compile it for the problem.  Steps can be found here: https://web01.usn.no/~roshans/mpc/
+4. place the project in the same folder as qpOASES. ex: C:\temp\qpOASES\qp_OASES\interfaces\simulink
